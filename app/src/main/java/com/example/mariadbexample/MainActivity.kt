@@ -42,9 +42,9 @@ class MainActivity : AppCompatActivity() {
     // Conexión a la base de datos
     private fun obtenerConexion(): Connection? {
 
-        val url = "jdbc:mariadb://10.0.2.2:3303/tu_base"
-        val user = "root"
-        val password = "1234"
+        val url = "###############"
+        val user = "######"
+        val password = "######"
 
         return try {
             DriverManager.getConnection(url, user, password)
